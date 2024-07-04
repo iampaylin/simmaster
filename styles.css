@@ -1,0 +1,51 @@
+/* styles.css */
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4d9e28;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+article {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+    transition: .4s;
+}
+
+article:hover {
+    border: 1px solid #000;
+    transition: .4s;
+}
+
+h2 {
+    color: #333;
+}
+
+pre {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
